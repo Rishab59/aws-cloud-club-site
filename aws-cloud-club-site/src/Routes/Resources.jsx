@@ -1,10 +1,12 @@
 import React from "react" ;
 
+import NavBar from "../Components/NavBar" ;
+
 
 function Resources() {
     return (
-        <div>
-            Resources
+        <div className = "resources-page">
+            <NavBar />
         </div>
     ) ;
 }
