@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Activities.css"
+import "./Benefits.css"
 
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -16,11 +16,11 @@ import network from "../../assets/animation/networking.json"
 
 
 
-function Activities() {
+function Benefits() {
   return (
     <Container id='Activities' fluid className='section'>
         
-      <SectionHeader header = "Benifits"/>
+      <SectionHeader header = "Benefits"/>
       <Row>
         <Col className="benefits">
             <div className="lottie-container  d-inline-block">
@@ -62,4 +62,4 @@ function Activities() {
   );
 }
 
-export default Activities;
+export default Benefits;
