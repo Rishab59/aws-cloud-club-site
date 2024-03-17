@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 } */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Sarpanch:wght@400;500;600;700;800;900&family=Share+Tech&family=Silkscreen:wght@400;700&family=Zen+Tokyo+Zoo&display=swap');
+
+.side-head{
+  margin-top: 30px;
+  font-family: "Sarpanch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(#F1F3F3, #7C5AED);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.para{
+  text-align: justify;
+  line-height: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161E2D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: radial-gradient( #baa9f4, #7C5AED);
+  border-radius: 50px;
+}
+

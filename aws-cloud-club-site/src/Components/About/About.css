@@ -1,0 +1,10 @@
+.section{
+    background-color: #161E2D;
+    height: 100vh;
+    padding: 80px 60px 0 60px;
+    overflow: hidden;
+}
+
+.section-content{
+    color: #fff;
+}
