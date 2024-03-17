@@ -2,8 +2,7 @@ import React from "react" ;
 
 import NavBar from "../Components/NavBar" ;
 import Hero from "../Components/Hero/Hero";
-import SectionHeader from "../Components/Section/SectionHeader/SectionHeader";
-import Section from "../Components/Section/Section";
+import About from "../Components/About/About";
 
 
 function Home() {
@@ -11,7 +10,7 @@ function Home() {
         <div className = "home-page">
             <NavBar />
             <Hero />
-            <Section />
+            <About />
         </div>
     ) ;
 }

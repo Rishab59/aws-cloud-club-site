@@ -4,7 +4,7 @@ import React from "react" ;
 
 import { Link } from "react-router-dom" ;
 
-import AWSCloudClubLogo from "../assets/aws-clud-club-logo-b-w.png" ;
+import AWSCloudClubLogo from "../assets/img/logo.png" ;
 
 
 function NavBar() {

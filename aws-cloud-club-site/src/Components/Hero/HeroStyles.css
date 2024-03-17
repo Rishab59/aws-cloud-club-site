@@ -3,17 +3,19 @@
     width: 100%;
     height: 100vh;
     background-color: #161E2D;
-    background-image: url("/src/assets/hero-bg.png");
+    background-image: url("/src/assets/img/hero-bg.png");
     background-size:cover;
     background-position: center;
     position: relative;
     color: rgba(255, 255, 255, 0.8);
+    padding: 60px;
   }
 
 h1 {
-    font-family: "Share Tech", sans-serif;
+    font-family: "Sarpanch", sans-serif;
     font-weight: 700;
-    font-size: 72px;
+    font-style: normal;
+    font-size: 68px;
     margin-top: 20px;
     background: linear-gradient(#F1F3F3, #7C5AED);
     background-clip: text;
