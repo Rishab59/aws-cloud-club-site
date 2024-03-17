@@ -1,8 +1,9 @@
 import React from "react" ;
 
-import NavBar from "../Components/NavBar" ;
+import NavBar from "../Components/NavBar/NavBar" ;
 import Hero from "../Components/Hero/Hero";
 import About from "../Components/About/About";
+import Activities from "../Components/Activities/Activities";
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
             <NavBar />
             <Hero />
             <About />
+            <Activities />
         </div>
     ) ;
 }
