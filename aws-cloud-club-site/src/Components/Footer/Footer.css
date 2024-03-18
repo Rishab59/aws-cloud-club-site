@@ -1,0 +1,114 @@
+.footer{
+    background-color: #232F3E;
+    opacity: 95%;
+    margin: 0 0 0 0;
+    min-width: 100%;
+    padding: 30px 40px;
+    font-family: "Raleway", sans-serif; 
+}
+
+.footer-addr{
+    color: #fff;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    line-height: 28px;
+    font-style: normal;
+    margin-top: 20px; 
+}
+
+.disclaimer{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.useful-links{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.useful-links:hover{
+    font-weight: 500;
+    transition: ease-in-out;
+    background: linear-gradient(#F1F3F3, #7C5AED);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.footer-logo{
+    width: 300px;
+    height: auto;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 640px) {
+    .footer-logo{
+        width: 200px ;
+    }
+}
+/* .footer {
+    background-color: #232F3E;
+    opacity: 95%;
+    color: #ffffff;
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 30vh; /* Set a minimum height 
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer-left,
+.footer-right {
+    margin: 20px ;
+    flex: 1;
+    /* text-align: left; 
+}
+
+.footer-middle {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 5px 0;
+}
+
+.footer-left .logo,
+.footer-left .pec-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; /* Adjust logo height 
+}
+
+/* Responsive Layout 
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+        flex-basis: 100%;
+    }
+} */

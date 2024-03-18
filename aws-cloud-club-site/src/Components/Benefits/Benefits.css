@@ -1,5 +1,6 @@
 .center{
     text-align: center;
+    font-family: "Raleway", sans-serif; 
 }
 
 .benefits{
@@ -8,9 +9,9 @@
     flex-direction: column;
 }
 
-.caption{
-    font-family: "Sarpanch", sans-serif;
-    font-weight: 400;
+.caption{    
+    font-size: 28px;
+    font-weight: 500;
     font-style: normal;
     background: linear-gradient(#F1F3F3, #7C5AED);
     background-clip: text;
@@ -24,6 +25,7 @@
   }
 
 .second-row{
-    margin-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 60px;
 }
   
