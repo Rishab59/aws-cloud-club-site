@@ -3,3 +3,5 @@ npm install react-router-dom
 npm install react-bootstrap 
 
 npm i bootstrap-icons
+
+npm install react-icons

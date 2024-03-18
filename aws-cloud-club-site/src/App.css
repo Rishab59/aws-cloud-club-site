@@ -37,8 +37,7 @@
   }
 } */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Sarpanch:wght@400;500;600;700;800;900&family=Share+Tech&family=Silkscreen:wght@400;700&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sarpanch:wght@400;500;600;700;800;900&family=Share+Tech&family=Silkscreen:wght@400;700&family=Zen+Tokyo+Zoo&display=swap');
 
 
 .side-head{
@@ -55,7 +54,8 @@
 .para{
   text-align: justify;
   line-height: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   margin-top: 15px;
   color: #F1F3F3;
 }
