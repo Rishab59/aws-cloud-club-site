@@ -4,25 +4,24 @@
     margin: 0 0 0 0;
     min-width: 100%;
     padding: 30px 40px;
+    font-family: "Raleway", sans-serif; 
 }
 
 .footer-addr{
     color: #fff;
     font-weight: 500;
-    font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     line-height: 28px;
     font-style: normal;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .disclaimer{
     color: #fff;
-    font-family: "Raleway", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .useful-links{

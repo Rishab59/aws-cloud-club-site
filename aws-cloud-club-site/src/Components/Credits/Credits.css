@@ -4,6 +4,11 @@
     background-color: #232F3E;
     color: #fff;
     font-weight: 500;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits{
+    display: flex;
 }
