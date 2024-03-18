@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sarpanch:wght@400;500;600;700;800;900&family=Share+Tech&display=swap');
 
+.footer{
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+    
+}
+
 .section-header {
   font-family: "Share Tech", sans-serif !important; 
   text-align: center;

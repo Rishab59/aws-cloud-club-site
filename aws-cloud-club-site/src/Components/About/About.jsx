@@ -15,7 +15,7 @@ import madhavakumar from '../../assets/animation/about.json';
 
 function About() {
   return (
-    <Container id='About' fluid className='section'>
+    <Container id='About' fluid className='about-section'>
         
       <SectionHeader header = "About Us"/>
       <Row className="section-row">
