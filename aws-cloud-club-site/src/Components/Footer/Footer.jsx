@@ -5,11 +5,11 @@ import React from "react" ;
 import { NavLink } from "react-router-dom" ;
 
 import AWSCloudClubLogo from "../../assets/img/logo.png" ;
-import PECLogo from "../../assets/img/pec-logo.png" ;
 
 import { Container, Row, Col } from "react-bootstrap";
 import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
 import GradientProfileIcon from "../GradientProfileIcon/GradientBoxIcon";
+import SocailLinks from "../SocialLinks/SocailLinks";
 
 function Footer() {
     return (
@@ -84,8 +84,8 @@ function Footer() {
                                 awscloudclubchennai@gmail.com
                             </NavLink>
                         </Col>
-                        
                     </Row>
+                    <SocailLinks />
 
                 </Col>
                 <Col lg={5} className="img-container">
@@ -126,13 +126,6 @@ function Footer() {
                             Practice Test
                             </NavLink>
                         </Col>
-                        
-                        {/* <Col md={6}>
-                            <NavLink to= "/" target="_blank" className="useful-links">
-                            <GradientBoxIcon />&nbsp;
-                            Skill Builder
-                            </NavLink>
-                        </Col> */}
                     </Row>
                 </Col>
             </Row>
