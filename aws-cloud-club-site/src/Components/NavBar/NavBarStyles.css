@@ -6,9 +6,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(35, 47, 62, 0.50); /* Use rgba for opacity */
-    backdrop-filter: blur(10px); /* Apply blur effect */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    background-color: rgba(35, 47, 62, 0.50);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,7 +106,7 @@
     }
 
     .hamburger{
-        display: initial ;
+        display: block ;
         padding-right: 1rem ;
     }
 }

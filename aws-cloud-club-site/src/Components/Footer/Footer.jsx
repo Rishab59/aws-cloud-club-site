@@ -92,14 +92,6 @@ function Footer() {
                     <img className="footer-logo" src={AWSCloudClubLogo} alt="AWSCloudClubLogo" />
                 </Col>
                 <Col lg={4}>
-                    <p className="disclaimer">
-                        <i>
-                            This website is managed by <b>AWS Cloud Club - Panimalar Chennai</b> and is independent of any affiliation with Amazon Web Services, Inc.
-                            <br />
-                            <br />
-                            Opinions expressed within the content are solely those of the respective contributors, and do not necessarily reflect the official positions or views of Amazon Web Services, Inc.
-                        </i>
-                    </p>
                     <Row>
                         <Col md={6}>
                             <h5 className="side-head" style={{marginTop: "15px"}}>Useful Links</h5>
@@ -127,6 +119,15 @@ function Footer() {
                             </NavLink>
                         </Col>
                     </Row>
+
+                    <p className="disclaimer">
+                        <i>
+                            <sub> This website is managed by <b>AWS Cloud Club - Panimalar Chennai</b> and is independent of any affiliation with Amazon Web Services, Inc.
+                            Opinions expressed within the content are solely those of the respective contributors, and do not necessarily reflect the official positions or views of Amazon Web Services, Inc.
+                            </sub>
+                        </i>
+                    </p>
+                    
                 </Col>
             </Row>
         </Container>

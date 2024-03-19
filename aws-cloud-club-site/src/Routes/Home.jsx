@@ -18,7 +18,6 @@ function Home() {
             <Benefits />
             <CtaSection />
             <Footer />
-            <Credits />
         </div>
     ) ;
 }
