@@ -7,7 +7,7 @@ function BlurCard(props) {
   return (
     <Card className="blur-card">
       <Card.Body>
-        <Card.Title className='card-titile'>{props.title}</Card.Title>
+        <h1 className='card-titile'>{props.title}</h1>
         <Card.Text className='card-text'>
         {props.text}
         </Card.Text>

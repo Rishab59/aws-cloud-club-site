@@ -8,7 +8,7 @@ import AWSCloudClubLogo from "../../assets/img/logo.png" ;
 
 import { Container, Row, Col } from "react-bootstrap";
 import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
-import GradientProfileIcon from "../GradientProfileIcon/GradientBoxIcon";
+import GradientProfileIcon from "../GradientProfileIcon/GradientProfileIcon";
 import SocailLinks from "../SocialLinks/SocailLinks";
 
 function Footer() {
@@ -122,7 +122,7 @@ function Footer() {
 
                     <p className="disclaimer">
                         <i>
-                            <sub> This website is managed by <b>AWS Cloud Club - Panimalar Chennai</b> and is independent of any affiliation with Amazon Web Services, Inc.
+                            <sub> This website is managed by <b>AWS Cloud Club Panimalar - Chennai</b> and is independent of any affiliation with Amazon Web Services, Inc.
                             Opinions expressed within the content are solely those of the respective contributors, and do not necessarily reflect the official positions or views of Amazon Web Services, Inc.
                             </sub>
                         </i>

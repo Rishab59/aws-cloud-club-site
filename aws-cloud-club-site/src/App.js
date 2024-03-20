@@ -7,6 +7,7 @@ import Home from "./Routes/Home" ;
 import Events from "./Routes/Events" ;
 import Resources from "./Routes/Resources" ;
 import Gallery from "./Routes/Gallery" ;
+import About from "./Routes/About";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className = "App">
       <Routes>
         <Route path = "/" element = { <Home /> } />
+        <Route path = "/about" element = { <About /> } />
         <Route path = "/events" element = { <Events /> } />
         <Route path = "/resources" element = { <Resources /> } />
         <Route path = "/gallery" element = { <Gallery /> } />

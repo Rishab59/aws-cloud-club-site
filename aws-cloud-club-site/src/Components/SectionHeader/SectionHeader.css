@@ -37,8 +37,8 @@
   
   .section-header span {
     position: absolute;
-    top: 52px;
-    color: rgba(255, 255, 255, 0.03);
+    top: 55px;
+    color: rgba(255, 255, 255, 0.06);
     left: 0;
     right: 0;
     z-index: 1;
