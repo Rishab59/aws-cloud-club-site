@@ -7,9 +7,6 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
 import Chennai from '../../assets/img/chennai.png'
-import nammaChennai from '../../assets/img/nammaChennai.png'
-import Lighthouse from '../../assets/img/lighthouse.png'
-import riponBuilding from '../../assets/img/riponBuilding.png'
 
 function Hero() {
     const scrollToAbout = () => {

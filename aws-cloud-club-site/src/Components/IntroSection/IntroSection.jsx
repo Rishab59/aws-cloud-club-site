@@ -24,7 +24,7 @@ function IntroSection() {
             </p>
             </Col>
             <Col lg={6} style={{ display: "flex", alignItems: "Center", justifyContent: "center" }}>
-            <img src={Logo} width={450} height={"auto"}/>
+            <img src={Logo} width={450} height={"auto"} alt=""/>
             </Col>
         </Row>
     </Container>
