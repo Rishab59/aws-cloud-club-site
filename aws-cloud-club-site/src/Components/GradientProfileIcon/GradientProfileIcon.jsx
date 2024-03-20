@@ -4,7 +4,7 @@ const GradientProfileIcon = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
       <defs>
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#F1F3F3" />
           <stop offset="100%" stopColor="#7C5AED" />
         </linearGradient>
