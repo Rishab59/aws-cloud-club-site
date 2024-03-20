@@ -6,57 +6,41 @@ import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 
 import SectionHeader from '../SectionHeader/SectionHeader'
+import BlurCard from '../BlurCard/BlurCard'
 
-import Lottie from 'lottie-react'
-import trainingSession from  '../../assets/animation/training.json'
-import projects from "../../assets/animation/projects.json"
-import mentoring from "../../assets/animation/industry.json"
-import certification from "../../assets/animation/certification.json"
-import network from "../../assets/animation/networking.json"
-
+import Certification from "../../assets/img/Certification.svg"
+import Projects from "../../assets/img/cloudProjects.svg"
+import Collaboration from "../../assets/img/globalCollaboration.svg"
+import Guidance from "../../assets/img/IndustryGuidance.svg"
 
 
 function Benefits() {
   return (
-    <Container id='Activities' fluid className='section'>
+    <Container id='Activities' fluid className='benefits-section'>
         
-      <SectionHeader header = "Benefits"/>
-      <Row>
-        <Col className="benefits">
-            <div className="lottie-container  d-inline-block">
-                <Lottie animationData={trainingSession}></Lottie>
-            </div>
-            <h2 className='caption center'>Training Sessions</h2>
+      <SectionHeader header = "Opportunities"/>
+
+      <Row className="benefits-row">
+        
+      <Col lg={6}  className="benefits">
+          <BlurCard title="AWS Certifications" image={Certification} />
+        </Col>
+        
+        <Col lg={6} className="benefits">
+          <BlurCard title="Cloud Projects" image={Projects} />
+        </Col>
+        
+      </Row>
+
+      <Row className='second-row benefits-row'>
+        
+      <Col md={6} className="benefits">
+          <BlurCard title="Global Collaboration" image={Collaboration}  />
         </Col>
 
-        <Col  className="benefits">
-            <div className="lottie-container  d-inline-block">
-                <Lottie animationData={projects}></Lottie>
-            </div>
-            <h2 className='caption center'>Hands-On Projects</h2>
+        <Col md={6} className="benefits">
+          <BlurCard title="Industry Guidance" image={Guidance} />
         </Col>
-        
-        <Col className="benefits">
-            <div className="lottie-container  d-inline-block">
-                <Lottie animationData={mentoring}></Lottie>
-            </div>
-            <h2 className='caption center'>Industry Mentoring</h2>
-        </Col>
-      </Row>
-      <Row className="second-row">
-        <Col className="benefits">
-            <div className="lottie-container  d-inline-block">
-                <Lottie animationData={certification}></Lottie>
-            </div>
-            <h2 className='caption center'>AWS Certification</h2>
-        </Col>
-        <Col className="benefits">
-            <div className="lottie-container  d-inline-block">
-                <Lottie animationData={network}></Lottie>
-            </div>
-            <h2 className='caption center'>Networking & Collaboration</h2>
-        </Col>
-        
       </Row>
     </Container>
   );

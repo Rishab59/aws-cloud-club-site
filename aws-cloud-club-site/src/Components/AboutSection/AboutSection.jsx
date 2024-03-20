@@ -2,7 +2,7 @@ import React from 'react'
 
 import "../../App.css"
 
-import "./About.css"
+import "./AboutSection.css"
 
 import SectionHeader from '../SectionHeader/SectionHeader';
 import Container from 'react-bootstrap/Container';
@@ -15,13 +15,13 @@ import madhavakumar from '../../assets/animation/about.json';
 
 function About() {
   return (
-    <Container id='About' fluid className='section'>
+    <Container id='About' fluid className='about-section'>
         
       <SectionHeader header = "About Us"/>
       <Row className="section-row">
         <Col className="section-content">
             <h2 className='side-head'>Who we are?</h2>
-            <p className='para'>The <b>AWS Cloud Club - Panimalar Chennai </b> is a dynamic Student 
+            <p className='para'>The <b>AWS Cloud Club Panimalar - Chennai</b> is a dynamic Student 
             Community dedicated to fostering innovation and expertise in cloud computing 
             technologies, particularly focusing on Amazon Web Services (AWS). Established 
             by a group of passionate students, driven by AWS and supported by faculty mentors,
