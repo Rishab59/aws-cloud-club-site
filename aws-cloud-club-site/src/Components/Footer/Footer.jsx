@@ -8,7 +8,7 @@ import AWSCloudClubLogo from "../../assets/img/logo.png" ;
 
 import { Container, Row, Col } from "react-bootstrap";
 import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
-import GradientProfileIcon from "../GradientProfileIcon/GradientBoxIcon";
+import GradientProfileIcon from "../GradientProfileIcon/GradientProfileIcon";
 import SocailLinks from "../SocialLinks/SocailLinks";
 
 function Footer() {

@@ -44,7 +44,7 @@ function NavBar() {
                 { click ? (
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                         <defs>
-                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <linearGradient x1="0%" y1="0%" x2="100%" y2="100%">
                                 <stop offset="0%" stopColor="#F1F3F3" />
                                 <stop offset="100%" stopColor="#7C5AED" />
                             </linearGradient>
@@ -54,7 +54,7 @@ function NavBar() {
                 ) : (
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <defs>
-                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <linearGradient x1="0%" y1="0%" x2="100%" y2="100%">
                                 <stop offset="0%" stopColor="#F1F3F3" />
                                 <stop offset="100%" stopColor="#7C5AED" />
                             </linearGradient>
