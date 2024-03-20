@@ -6,11 +6,9 @@ import "./BlurCard.css"
 function BlurCard(props) {
   return (
     <Card className="blur-card">
-      <Card.Body>
-        <h1 className='card-titile'>{props.title}</h1>
-        <Card.Text className='card-text'>
-        {props.text}
-        </Card.Text>
+      <Card.Body className='card-body'>
+        <img src={props.image} alt={props.title} className="card-image" />
+        <Card.Title className='card-title'>{props.title}</Card.Title>
       </Card.Body>
     </Card>
   );
