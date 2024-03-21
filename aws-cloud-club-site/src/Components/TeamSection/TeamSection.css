@@ -4,9 +4,30 @@
     min-height: 100vh;
     padding: 80px 60px 0 60px;
     min-width: 100%;
-
 }
 
+
+.members-row-one{
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.members-row-two{
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.members-row-three{
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* 
 .lead {
     display: flex;
     flex-direction: row;
@@ -21,7 +42,7 @@
 
 
 .name {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 
@@ -29,7 +50,7 @@
 .person-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Align items horizontally */
+    justify-content: center; /* Align items horizontally * /
     padding-bottom: 20px; 
 }
 
@@ -59,4 +80,4 @@
 .person-col {
     padding-left: 30px;
     padding-right: 30px;
-}
+} */

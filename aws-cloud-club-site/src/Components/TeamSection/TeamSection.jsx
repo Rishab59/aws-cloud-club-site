@@ -3,17 +3,49 @@ import { Col, Container, Row, Button } from 'react-bootstrap';
 import SectionHeader from '../SectionHeader/SectionHeader';
 
 
-import Card from "../ImgCard/ImgCard";
-
 import "./TeamSection.css"
 
-import nammaChennai from "../../assets/img/nammaChennai.png"
+import Jeswin from "../../assets/img/jeswin.jpg"
+import TeamCard from '../TeamCard/TeamCard';
 
 function TeamSection() {
   return (
     <Container className='team-section'>
       <SectionHeader header="Our Team" />
-      <Row className='person-row'>
+      <Row className='members-row-one'>
+        <Col lg="5">
+            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Madhavakumar D" designation="AWS Cloud Club Captain" />
+        </Col>
+      </Row>
+      <Row className='members-row-two'>
+        <Col lg="5">
+            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Sakkthivel T"  designation="Technology Lead"/>
+        </Col>
+        <Col lg="5">
+            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Porselvan P" designation="Aritificial Intelligence Lead"/>
+        </Col>
+      </Row>
+      
+      <Row className='members-row-three'>
+        <Col lg="5">
+            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Rishab H" designation="Full-Stack Lead"/>
+        </Col>
+        <Col lg="5">
+            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Jeswin Joseph J" designation="Social Outreach Lead"/>
+        </Col>
+      </Row>
+      
+    </Container>
+  );
+}
+
+
+export default TeamSection ;
+
+
+
+
+{/* <Row className='person-row'>
         <Col sm={6} className='person-col'>
           <Card image={nammaChennai} />
           <div className='details-col'>
@@ -47,10 +79,4 @@ function TeamSection() {
             </div>
           </div>
         </Col>
-      </Row>
-    </Container>
-  );
-}
-
-
-export default TeamSection ;
+      </Row> */}
