@@ -8,118 +8,151 @@ import AWSCloudClubLogo from "../../assets/img/logo.png" ;
 
 import { Container, Row, Col } from "react-bootstrap";
 import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
-import GradientProfileIcon from "../GradientProfileIcon/GradientProfileIcon";
 import SocailLinks from "../SocialLinks/SocailLinks";
+
+import Lighthouse from "../../assets/img/lighthouse.png";
+import nammaChennai from "../../assets/img/nammaChennai.png";
 
 function Footer() {
     return (
         <Container className="footer">
             <Row>
-                <Col lg={3}>
-                    
-                    <Row>
-                        <Col md={6}>
-                            <h5 className="side-head" style={{marginTop: "25px"}}>Our Team</h5>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <NavLink to= "https://www.linkedin.com/in/madhavakumar-dhandapani/" target="_blank" className="useful-links">
-                            <GradientProfileIcon />&nbsp;
-                            Madhavakumar D
-                            </NavLink>
-                        </Col>
-                        <Col md={6}>
-                            <NavLink to= "https://www.linkedin.com/in/hrishab59/" target="_blank" className="useful-links">
-                            <GradientProfileIcon />&nbsp;
-                            Rishab H
-                            </NavLink>
-                        </Col>
-                        
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <NavLink to= "https://www.linkedin.com/in/sakkthivelt/" target="_blank" className="useful-links">
-                            <GradientProfileIcon />&nbsp;
-                            Sakkthivel T
-                            </NavLink>
-                        </Col>
-                        
-                        <Col md={6}>
-                            <NavLink to= "https://www.linkedin.com/in/porselvan-p-459596232/" target="_blank" className="useful-links">
-                                <GradientProfileIcon />&nbsp;
-                                Porselvan P
-                            </NavLink>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
-                            <NavLink to= "https://www.linkedin.com/in/jeswinjosephj/" target="_blank" className="useful-links"> 
-                            <GradientProfileIcon />&nbsp;
-                            Jeswin Joseph J
-                            </NavLink>
-                        </Col>
-                        
-                    </Row>
+            <Col lg={4}>
+                <div style={{ position: 'absolute', bottom: 0, left: 0, margin: 0}}>
+                    <img src={nammaChennai} width={200} height={"auto"} alt="" />
+                    <img src={Lighthouse} width={"auto"} height={150} alt="" />
+                </div>
+                <Row>
+                    <Col md={6}>
+                        <h5 className="side-head" style={{ marginTop: "35px" }}>Contact Us</h5>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
+                        <NavLink to="https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links" style={{ fontFamily: "sans-serif" }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots" viewBox="0 0 16 16">
+                            <defs>
+                                <linearGradient x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stopColor="#F1F3F3" />
+                                <stop offset="100%" stopColor="#7C5AED" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"   fill="url(#gradient)"/>
+                            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"  fill="url(#gradient)"/>
+                        </svg>&nbsp;
+                            +91 93846 78960
+                        </NavLink>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
+                        <NavLink to="/" target="_blank" className="useful-links">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <defs>
+                                    <linearGradient x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stopColor="#F1F3F3" />
+                                    <stop offset="100%" stopColor="#7C5AED" />
+                                    </linearGradient>
+                                </defs>
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" fill="url(#gradient)"/>
+                            </svg>&nbsp;
+                            awscloudclubchennai@gmail.com
+                        </NavLink>
+                    </Col>
+                </Row>
+                <SocailLinks />
+            </Col>
 
-                    <Row>
-                        <Col md={6}>
-                            <h5 className="side-head" style={{marginTop: "35px"}}>Contact Us</h5>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={12}>
-                            <NavLink to= "https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links" style={{fontFamily: "sans-serif"}}>
-                                <GradientBoxIcon />&nbsp;
-                                +91 93846 78960
-                            </NavLink>
-                        </Col>
-                        
-                    </Row>
-                    
-                    <Row>
-                        <Col md={12}>
-                            <NavLink to= "/" target="_blank" className="useful-links">
-                                <GradientBoxIcon />&nbsp;
-                                awscloudclubchennai@gmail.com
-                            </NavLink>
-                        </Col>
-                    </Row>
-                    <SocailLinks />
-
-                </Col>
-                <Col lg={5} className="img-container">
-                    <img className="footer-logo" src={AWSCloudClubLogo} alt="AWSCloudClubLogo" />
-                </Col>
                 <Col lg={4}>
+                <Row>
                     <Row>
                         <Col md={6}>
-                            <h5 className="side-head" style={{marginTop: "15px"}}>Useful Links</h5>
+                            <h5 className="side-head" style={{marginTop: "15px"}}>Community</h5>
+                        </Col>
+                        
+                        <Col md={6}>
+                            <h5 className="side-head" style={{marginTop: "15px"}}>Contribute</h5>
                         </Col>
                     </Row>
                     <Row>
                         <Col md={6}>
                             <NavLink to= "https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
-                            Skill Builder</NavLink>
+                            Join Group</NavLink><br />
+                            
+                            <NavLink to= "https://www.awsboy.com/aws-practice-exams/practitioner/" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                                Certification
+                            </NavLink> <br />
+                            
+                            <NavLink to= "https://www.awsboy.com/aws-practice-exams/practitioner/" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                                Project Support
+                            </NavLink> <br />
                         </Col>
+
                         <Col md={6}>
                             <NavLink to= "/" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
-                            Feedback
+                            Present Topic
+                            </NavLink> <br />
+                            
+                            <NavLink to= "/" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                            Host Events
+                            </NavLink> <br />
+                            
+                            <NavLink to= "/" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                            Sponsor
                             </NavLink>
                         </Col>
-                        
+                    </Row>
+                </Row>
+                <Row style={{marginTop: 30}}>
+                    <Row>
+                        <Col md={6}>
+                            <h5 className="side-head" style={{marginTop: "15px"}}>Learn</h5>
+                        </Col>
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <NavLink to= "https://www.awsboy.com/aws-practice-exams/practitioner/" target="_blank" className="useful-links">
+                            <NavLink to= "https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
-                            Practice Test
-                            </NavLink>
+                                Skill Builder
+                            </NavLink><br />
+                            
+                            <NavLink to= "https://s12d.com/learner-library" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                                Learner Library
+                            </NavLink> <br />
+                            
+                            <NavLink to= "https://s12d.com/infra-camp" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                                Infrastructure
+                            </NavLink> <br />
+                        </Col>
+
+                        <Col md={6}>
+                            <NavLink to= "https://s12d.com/amplify-camp" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                                AWS Amplify
+                            </NavLink> <br />
+                            
+                            <NavLink to= "https://s12d.com/gen-ai-for-beginners" target="_blank" className="useful-links">
+                            <GradientBoxIcon />&nbsp;
+                                Gen - AI
+                            </NavLink> <br />
+                            
                         </Col>
                     </Row>
+                </Row>
+                </Col>
 
+                <Col lg={4}>
+                    
+                    <img className="footer-logo" src={AWSCloudClubLogo} alt="AWSCloudClubLogo" />
+                
                     <p className="disclaimer">
                         <i>
                             <sub> This website is managed by <b>AWS Cloud Club Panimalar - Chennai</b> and is independent of any affiliation with Amazon Web Services, Inc.

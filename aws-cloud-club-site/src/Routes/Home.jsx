@@ -2,7 +2,6 @@ import React from "react" ;
 
 import NavBar from "../Components/NavBar/NavBar" ;
 import Hero from "../Components/Hero/Hero";
-import AboutSection from "../Components/AboutSection/AboutSection";
 import Benefits from "../Components/Benefits/Benefits";
 import Footer from "../Components/Footer/Footer";
 import CtaSection from "../Components/CtaSection/CtaSection";
