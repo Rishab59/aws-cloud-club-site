@@ -8,7 +8,7 @@ import AWSCloudClubLogo from "../../assets/img/logo.png" ;
 
 import { Container, Row, Col } from "react-bootstrap";
 import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
-import SocailLinks from "../SocialLinks/SocailLinks";
+import SocialLinks from "../SocialLinks/SocailLinks";
 
 import Lighthouse from "../../assets/img/lighthouse.png";
 import nammaChennai from "../../assets/img/nammaChennai.png";
@@ -60,7 +60,7 @@ function Footer() {
                         </NavLink>
                     </Col>
                 </Row>
-                <SocailLinks />
+                <SocialLinks />
             </Col>
 
                 <Col lg={4}>
