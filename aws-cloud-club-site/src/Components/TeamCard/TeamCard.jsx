@@ -8,7 +8,11 @@ function TeamCard(props) {
     <Card className="team-card">
       <Card.Body className='team-card-body'>
         <h1 className='quote'>&ldquo;</h1>
-        <Card.Text className='quote-text'><i>{props.quote}</i></Card.Text>
+
+        <Card.Text className='quote-text'>
+          <i dangerouslySetInnerHTML={{ __html: props.quote }} />
+        </Card.Text>
+        
         <img src={props.image} alt={props.title} className="card-image" />
         <Card.Title className='team-card-title'>{props.title}</Card.Title>
         <Card.Subtitle className="designation">{props.designation}</Card.Subtitle>

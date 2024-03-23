@@ -14,7 +14,7 @@ function TeamSection() {
       <SectionHeader header="Our Team" />
       <Row className='members-row-one'>
         <Col lg="5">
-            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Madhavakumar D" designation="AWS Cloud Club Captain" />
+            <TeamCard quote="Take the first step today<br /> In the stairs to Reach the Cloud" image={Jeswin} title="Madhavakumar D" designation="AWS Cloud Club Captain" />
         </Col>
       </Row>
       <Row className='members-row-two'>
@@ -28,10 +28,16 @@ function TeamSection() {
       
       <Row className='members-row-three'>
         <Col lg="5">
-            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Rishab H" designation="Full-Stack Lead"/>
+            <TeamCard quote="Just keep on increasing your FullStack.  At one point, you will Reach the Cloud" 
+            image={Jeswin} 
+            title="Rishab H" 
+            designation="Full-Stack Lead"/>
         </Col>
+
         <Col lg="5">
-            <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Jeswin Joseph J" designation="Social Outreach Lead"/>
+            <TeamCard quote="Cloud connects servers, while a Community connects people." 
+            image={Jeswin} title="Jeswin Joseph J" 
+            designation="Social Outreach Lead"/>
         </Col>
       </Row>
       
