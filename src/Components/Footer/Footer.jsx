@@ -12,7 +12,6 @@ import SocialLinks from "../SocialLinks/SocailLinks";
 
 import Lighthouse from "../../assets/img/lighthouse.png";
 import nammaChennai from "../../assets/img/nammaChennai.png";
-import { Position } from "monaco-editor";
 
 function Footer() {
     return (
