@@ -9,3 +9,12 @@
 .section-content{
     color: #fff;
 }
+
+
+/* Media query for smartphones */
+@media (max-width: 576px) {
+    .about-section {
+        padding: 80px 15px 30px 15px;
+    }
+    
+  }

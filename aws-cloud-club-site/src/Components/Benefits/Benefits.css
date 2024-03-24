@@ -42,3 +42,19 @@
 }
   
 }
+
+/* Media query for Tablet */
+@media (max-width: 768px) and (min-width: 576px) {
+  .benefits-section {
+      padding: 80px 30px 30px 30px;
+  }
+
+  .right-item {
+    margin-top: 20px;
+  }
+
+  .second-row{
+    margin-top: 20px;
+}
+  
+}

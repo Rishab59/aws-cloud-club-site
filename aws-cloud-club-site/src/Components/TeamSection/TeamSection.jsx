@@ -21,7 +21,7 @@ function TeamSection() {
         <Col lg="5">
             <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Sakkthivel T"  designation="Technology Lead"/>
         </Col>
-        <Col lg="5">
+        <Col lg="5" className='right-member'>
             <TeamCard quote="Take the first step today in the stairs to Reach the Cloud" image={Jeswin} title="Porselvan P" designation="Aritificial Intelligence Lead"/>
         </Col>
       </Row>
@@ -34,7 +34,7 @@ function TeamSection() {
             designation="Full-Stack Lead"/>
         </Col>
 
-        <Col lg="5">
+        <Col lg="5"  className='right-member'>
             <TeamCard quote="Cloud connects servers, while a Community connects people." 
             image={Jeswin} title="Jeswin Joseph J" 
             designation="Social Outreach Lead"/>

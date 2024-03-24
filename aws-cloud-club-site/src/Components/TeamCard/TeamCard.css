@@ -83,3 +83,22 @@
 .connect-btn:hover {
     background: linear-gradient(#410157, #3a0247);
 }
+
+@media (max-width: 576px) {
+    .team-card {
+        padding: 15px;
+    }
+
+    .quote {
+        font-size: 180px;
+        margin-top: -40px;
+        margin-bottom: -120px;
+      }
+
+      .quote-text {
+        font-size: 26px;
+        text-align: center;
+        font-weight: 500;
+      }
+    
+  }

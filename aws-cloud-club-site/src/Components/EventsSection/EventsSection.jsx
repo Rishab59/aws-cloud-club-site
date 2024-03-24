@@ -16,7 +16,7 @@ function EventsSection() {
             <Col lg={5}>
             <EventsCard image={inaugurationPoster} title="Inauguration Ceremony"></EventsCard>
             </Col>
-            <Col lg={7} style={{paddingLeft: "40px"}}>
+            <Col lg={7} className='event-desc'>
               <h1 className='event-title'>Inauguration Ceremony</h1>
               <p className='para'>
                 Celebrate with us on the grand occasion of the inauguration of 
