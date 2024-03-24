@@ -21,7 +21,8 @@ function TeamSection() {
             <TeamCard 
             quote="Take the first step today <br /> In the stairs to Reach the Cloud" 
             image={Madhav} title="Madhavakumar D" 
-            designation="AWS Cloud Club Captain" />
+            designation="AWS Cloud Club Captain"
+            connect="https://www.linkedin.com/in/madhavakumar-dhandapani/" />
         </Col>
       </Row>
       <Row className='members-row-two'>
@@ -29,12 +30,14 @@ function TeamSection() {
             <TeamCard 
             quote="The infrastructure of the future is being built by technology, with the architect, AWS cloud." 
             image={Sakkthivel} title="Sakkthivel T"  
-            designation="Technology Lead"/>
+            designation="Technology Lead"
+            connect="https://www.linkedin.com/in/sakkthivelt/"/>
         </Col>
         <Col lg="5" className='right-member'>
             <TeamCard quote="Scale Your Dreams with AI, <br /> Fuel Your Ambitions with AWS Cloud." 
             image={Porselvan} title="Porselvan P" 
-            designation="Aritificial Intelligence Lead"/>
+            designation="Aritificial Intelligence Lead"
+            connect="https://www.linkedin.com/in/porselvan-p-459596232/"/>
         </Col>
       </Row>
       
@@ -43,13 +46,15 @@ function TeamSection() {
             <TeamCard quote="Just keep on increasing your FullStack. <br /> At one point, you will Reach the Cloud" 
             image={Rishab} 
             title="Rishab H" 
-            designation="Full-Stack Lead"/>
+            designation="Full-Stack Lead"
+            connect="https://www.linkedin.com/in/hrishab59/"/>
         </Col>
 
         <Col lg="5"  className='right-member'>
             <TeamCard quote="Cloud connects servers, while a Community connects people." 
             image={Jeswin} title="Jeswin Joseph J" 
-            designation="Social Outreach Lead"/>
+            designation="Social Outreach Lead"
+            connect="https://www.linkedin.com/in/jeswinjosephj/"/>
         </Col>
       </Row>
       
