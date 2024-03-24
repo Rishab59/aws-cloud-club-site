@@ -1,5 +1,5 @@
 import React from 'react' ;
-import { Col, Container, Row, Button } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import SectionHeader from '../SectionHeader/SectionHeader';
 
 
@@ -21,7 +21,8 @@ function TeamSection() {
             <TeamCard 
             quote="Take the first step today <br /> In the stairs to Reach the Cloud" 
             image={Madhav} title="Madhavakumar D" 
-            designation="AWS Cloud Club Captain" />
+            designation="AWS Cloud Club Captain"
+            connect="https://www.linkedin.com/in/madhavakumar-dhandapani/" />
         </Col>
       </Row>
       <Row className='members-row-two'>
@@ -29,12 +30,14 @@ function TeamSection() {
             <TeamCard 
             quote="The infrastructure of the future is being built by technology, with the architect, AWS cloud." 
             image={Sakkthivel} title="Sakkthivel T"  
-            designation="Technology Lead"/>
+            designation="Technology Lead"
+            connect="https://www.linkedin.com/in/sakkthivelt/"/>
         </Col>
         <Col lg="5" className='right-member'>
             <TeamCard quote="Scale Your Dreams with AI, <br /> Fuel Your Ambitions with AWS Cloud." 
             image={Porselvan} title="Porselvan P" 
-            designation="Aritificial Intelligence Lead"/>
+            designation="Aritificial Intelligence Lead"
+            connect="https://www.linkedin.com/in/porselvan-p-459596232/"/>
         </Col>
       </Row>
       
@@ -43,13 +46,15 @@ function TeamSection() {
             <TeamCard quote="Just keep on increasing your FullStack. <br /> At one point, you will Reach the Cloud" 
             image={Rishab} 
             title="Rishab H" 
-            designation="Full-Stack Lead"/>
+            designation="Full-Stack Lead"
+            connect="https://www.linkedin.com/in/hrishab59/"/>
         </Col>
 
         <Col lg="5"  className='right-member'>
             <TeamCard quote="Cloud connects servers, while a Community connects people." 
             image={Jeswin} title="Jeswin Joseph J" 
-            designation="Social Outreach Lead"/>
+            designation="Social Outreach Lead"
+            connect="https://www.linkedin.com/in/jeswinjosephj/"/>
         </Col>
       </Row>
       
@@ -59,42 +64,3 @@ function TeamSection() {
 
 
 export default TeamSection ;
-
-
-
-
-{/* <Row className='person-row'>
-        <Col sm={6} className='person-col'>
-          <Card image={nammaChennai} />
-          <div className='details-col'>
-            <h1 className='name'>Madhavakumar D</h1>
-            <h4 className='designation'>AWS Cloud Club Captain</h4>
-            <p className='para'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis in eveniet, deleniti autem a nisi hic animi nihil nesciunt soluta, labore minus omnis mollitia iure neque expedita sed voluptatem.</p>
-            <div className='connect-btn-div'>
-              <Button className='connect-btn'>
-                Connect &nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </Col>
-
-        <Col sm={6} className='person-col'>
-          <Card image={nammaChennai} />
-          <div className='details-col'>
-            <h1 className='name'>Sakkthivel T</h1>
-            <h4 className='designation'>Tech Lead</h4>
-            <p className='para'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis in eveniet, deleniti autem a nisi hic animi nihil nesciunt soluta, labore minus omnis mollitia iure neque expedita sed voluptatem.</p>
-            <div className='connect-btn-div'>
-              <Button className='connect-btn'>
-                Connect &nbsp;
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                </svg>
-              </Button>
-            </div>
-          </div>
-        </Col>
-      </Row> */}
