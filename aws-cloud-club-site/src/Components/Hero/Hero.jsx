@@ -19,9 +19,6 @@ function Hero() {
   return (
     <Container fluid className='hero'>
       <Row className="hero-row">
-      {/* <Col className="hero-img-container d-flex justify-content-start align-items-start">
-          <img src={nammaChennai} alt="" className="hero-img" />
-        </Col> */}
         <Col lg={12} className="hero-content">
             <h1>AWS Cloud Club Panimalar - Chennai.</h1>
             <h4>A Technical Community of AWS for Students, By Students.</h4>

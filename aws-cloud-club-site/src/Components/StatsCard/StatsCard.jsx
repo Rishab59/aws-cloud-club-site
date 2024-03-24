@@ -8,7 +8,7 @@ function StatsCard(props) {
     <Card className="stats-card">
       <Card.Body>
         <Card.Title className='stats-title'>{props.title}</Card.Title>
-        <Card.Text className='stats-text'>
+        <Card.Text id='stats-text'>
         {props.text}
         </Card.Text>
       </Card.Body>
