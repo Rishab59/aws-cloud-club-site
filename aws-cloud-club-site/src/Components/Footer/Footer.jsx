@@ -18,17 +18,9 @@ function Footer() {
         <Container className="footer">
             <Row>
             <Col lg={4}>
-                <div style={{ position: 'absolute', bottom: 0, left: 0, margin: 0}}>
-                    <img src={nammaChennai} width={200} height={"auto"} alt="" />
-                    <img src={Lighthouse} width={"auto"} height={150} alt="" />
-                </div>
-                <Row>
-                    <Col md={6}>
-                        <h5 className="side-head" style={{ marginTop: "35px" }}>Contact Us</h5>
-                    </Col>
-                </Row>
                 <Row>
                     <Col md={12}>
+                        <h5 className="side-head" style={{ marginTop: "35px" }}>Contact Us</h5>
                         <NavLink to="https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links" style={{ fontFamily: "sans-serif" }}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots" viewBox="0 0 16 16">
                             <defs>
@@ -42,10 +34,7 @@ function Footer() {
                         </svg>&nbsp;
                             +91 93846 78960
                         </NavLink>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col md={12}>
+                        <br />
                         <NavLink to="/" target="_blank" className="useful-links">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                                 <defs>
@@ -56,7 +45,7 @@ function Footer() {
                                 </defs>
                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" fill="url(#gradient)"/>
                             </svg>&nbsp;
-                            awscloudclubchennai@gmail.com
+                            awscc_panimalar_chennai@outlook.com
                         </NavLink>
                     </Col>
                 </Row>
@@ -64,18 +53,10 @@ function Footer() {
             </Col>
 
                 <Col lg={4}>
-                <Row>
-                    <Row>
-                        <Col md={6}>
-                            <h5 className="side-head" style={{marginTop: "15px"}}>Community</h5>
-                        </Col>
-                        
-                        <Col md={6}>
-                            <h5 className="side-head" style={{marginTop: "15px"}}>Contribute</h5>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
+                    <Row className="useful-links-one">
+                        <Col>
+                            
+                             <h5 className="side-head" style={{marginTop: "15px"}}>Community</h5>
                             <NavLink to= "https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                             Join Group</NavLink><br />
@@ -91,7 +72,9 @@ function Footer() {
                             </NavLink> <br />
                         </Col>
 
-                        <Col md={6}>
+                        <Col>
+                            
+                        <h5 className="side-head" style={{marginTop: "15px"}}>Contribute</h5>
                             <NavLink to= "/" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                             Present Topic
@@ -108,15 +91,11 @@ function Footer() {
                             </NavLink>
                         </Col>
                     </Row>
-                </Row>
                 <Row style={{marginTop: 30}}>
-                    <Row>
-                        <Col md={6}>
+                    
+                        <Col>
+                            
                             <h5 className="side-head" style={{marginTop: "15px"}}>Learn</h5>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={6}>
                             <NavLink to= "https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                                 Skill Builder
@@ -133,7 +112,7 @@ function Footer() {
                             </NavLink> <br />
                         </Col>
 
-                        <Col md={6}>
+                        <Col style={{marginTop: 40}}>
                             <NavLink to= "https://s12d.com/amplify-camp" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                                 AWS Amplify
@@ -145,11 +124,10 @@ function Footer() {
                             </NavLink> <br />
                             
                         </Col>
-                    </Row>
                 </Row>
                 </Col>
 
-                <Col lg={4}>
+                <Col lg={4} className="footer-right">
                     
                     <img className="footer-logo" src={AWSCloudClubLogo} alt="AWSCloudClubLogo" />
                 
