@@ -21,7 +21,7 @@ function Footer() {
                 <Row>
                     <Col md={12}>
                         <h5 className="side-head" style={{ marginTop: "35px" }}>Contact Us</h5>
-                        <NavLink to="https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links" style={{ fontFamily: "sans-serif" }}>
+                        <NavLink to="tel:+919384678960" target="_blank" className="useful-links" style={{ fontFamily: "sans-serif" }}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots" viewBox="0 0 16 16">
                             <defs>
                                 <linearGradient x1="0%" y1="0%" x2="100%" y2="100%">
@@ -35,7 +35,7 @@ function Footer() {
                             +91 93846 78960
                         </NavLink>
                         <br />
-                        <NavLink to="/" target="_blank" className="useful-links">
+                        <NavLink to="mailto:awscc_panimalar_chennai@outlook.com" target="_blank" className="useful-links">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                                 <defs>
                                     <linearGradient x1="0%" y1="0%" x2="100%" y2="100%">
@@ -50,6 +50,12 @@ function Footer() {
                     </Col>
                 </Row>
                 <SocialLinks />
+                
+                <div style={{position: "absolute", left: 30, bottom: 0}} className="chennai-identity">
+                    <img src={nammaChennai} alt="Namma Chennai" width={200} />
+                    
+                    <img src={Lighthouse} alt="Light house" width={200} />
+                </div>
             </Col>
 
                 <Col lg={4}>
@@ -57,16 +63,16 @@ function Footer() {
                         <Col>
                             
                              <h5 className="side-head" style={{marginTop: "15px"}}>Community</h5>
-                            <NavLink to= "https://www.meetup.com/aws-cloud-club-at-panimalar-engineering-college/" target="_blank" className="useful-links">
+                            <NavLink to= "https://chat.whatsapp.com/JLQEk3mpP652tcpuD7r6sB" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                             Join Group</NavLink><br />
                             
-                            <NavLink to= "https://www.awsboy.com/aws-practice-exams/practitioner/" target="_blank" className="useful-links">
+                            <NavLink to= "https://chat.whatsapp.com/Cfpykio9KWW7RXNSsO1saT" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                                 Certification Support
                             </NavLink> <br />
                             
-                            <NavLink to= "https://www.awsboy.com/aws-practice-exams/practitioner/" target="_blank" className="useful-links">
+                            <NavLink to= "https://chat.whatsapp.com/Jk2FRnT1M9j2QHdWa9HhJX" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                                 Project Support
                             </NavLink> <br />
@@ -75,17 +81,17 @@ function Footer() {
                         <Col>
                             
                         <h5 className="side-head" style={{marginTop: "15px"}}>Contribute</h5>
-                            <NavLink to= "/" target="_blank" className="useful-links">
+                            <NavLink to= "mailto:awscc_panimalar_chennai@outlook.com?subject=Intrest%20to%20Present%20a%20topic%20-%20Reg" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                             Present Topic
                             </NavLink> <br />
                             
-                            <NavLink to= "/" target="_blank" className="useful-links">
+                            <NavLink to= "mailto:awscc_panimalar_chennai@outlook.com?subject=Intrest%20to%20Host%20an%20Event%20-%20Reg" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                             Host Events
                             </NavLink> <br />
                             
-                            <NavLink to= "/" target="_blank" className="useful-links">
+                            <NavLink to= "mailto:awscc_panimalar_chennai@outlook.com?subject=Intrest%20to%20Sponsor%20an%20Event%20-%20Reg" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                             Sponsor
                             </NavLink>
