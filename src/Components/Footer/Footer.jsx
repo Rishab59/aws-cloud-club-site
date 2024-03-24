@@ -10,8 +10,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import GradientBoxIcon from "../GradientBoxIcon/GradientBoxIcon";
 import SocialLinks from "../SocialLinks/SocailLinks";
 
-import Lighthouse from "../../assets/img/lighthouse.png";
-import nammaChennai from "../../assets/img/nammaChennai.png";
+// import Lighthouse from "../../assets/img/lighthouse.png";
+// import nammaChennai from "../../assets/img/nammaChennai.png";
 
 function Footer() {
     return (
