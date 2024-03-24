@@ -25,10 +25,10 @@
     margin-bottom: 0px;
 }
   
-.stats-text {
+#stats-text {
     color: #fff;
     text-align: justify;
-    font-size: 28px;
+    font-size: 28px !important;
     font-weight: 600;
     font-family: "Raleway", sans-serif;
 }

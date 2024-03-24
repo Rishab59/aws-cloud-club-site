@@ -13,10 +13,10 @@ function StatsSection() {
             <Col lg={3}>
             <StatsCard title="123" text="Members"/>
             </Col>
-            <Col lg={3}>
-            <StatsCard title="1" text="Events" />
+            <Col lg={3} id='second-card'>
+            <StatsCard title="1" text="Events"/>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} id="third-card">
             <StatsCard title="&infin;" text="Opportunities" />
             </Col>
         </Row>

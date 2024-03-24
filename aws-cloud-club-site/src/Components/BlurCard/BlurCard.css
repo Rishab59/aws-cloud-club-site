@@ -36,11 +36,13 @@
 }
 
 
-.card-image{
+#card-image{
     height: 200px;
     width: auto;
     margin-bottom: 15px;
+    border: none;
 }
+
 
 .card-body{
     display: flex;

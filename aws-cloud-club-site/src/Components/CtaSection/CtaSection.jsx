@@ -12,7 +12,14 @@ function CtaSection() {
             <Col sm={12} className="cta-col">
                 <h1>We are Open!</h1>
                 <p className='para'>
-                AWS Cloud Club at Panimalar, Chennai is a vibrant community of enthusiastic learners and pioneers in cloud technology. Engage with us to exchange ideas, partner in innovation, and expand your knowledge with peers who share your zeal. Dive into the evolving world of cloud computing as we collectively navigate cutting-edge developments, exchange expert knowledge, and build meaningful relationships in our supportive space. Join our journey as we collectively drive technological advancement and open the doors to boundless possibilities in the cloud domain.
+                AWS Cloud Club at Panimalar, Chennai is a vibrant community of enthusiastic 
+                learners and pioneers in cloud technology. Engage with us to exchange ideas,
+                 partner in innovation, and expand your knowledge with peers who share your zeal. 
+                 Dive into the evolving world of cloud computing as we collectively navigate 
+                 cutting-edge developments, exchange expert knowledge, and build meaningful 
+                 relationships in our supportive space. Join our journey as we collectively drive
+                  technological advancement and open the doors to boundless possibilities in the 
+                  cloud domain.
                 </p>
                 <div  className='btn-div'>
                 <Button className='join-btn'>

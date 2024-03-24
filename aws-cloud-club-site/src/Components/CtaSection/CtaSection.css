@@ -28,3 +28,15 @@
 .btn-div{
     margin-top: 40px;
 }
+
+/* Media query for smartphones */
+@media (max-width: 576px) {
+    .cta-section {
+        padding: 80px 5px 30px 5px;
+    }
+
+    .cta {
+        margin: 0 10px;
+    }
+    
+  }

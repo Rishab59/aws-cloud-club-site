@@ -4,59 +4,70 @@
     min-height: 100vh;
     padding: 80px 60px 0 60px;
     min-width: 100%;
-
 }
 
-.lead {
+
+.members-row-one{
+    margin-bottom: 80px;
     display: flex;
-    flex-direction: row;
-    text-align: right;
-    padding-right: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
-.designation {
-    color: #fff;
-    font-weight: 400;
-}
-
-
-.name {
-    font-size: 48px;
-}
-
-
-
-.person-row {
+.members-row-two{
+    padding-bottom: 60px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Align items horizontally */
-    padding-bottom: 20px; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.members-row-three{
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 
+@media (max-width: 576px) {
+    .team-section {
+        padding: 80px 15px 30px 15px;
+    }
 
-.connect-btn {
-    background: rgb(51,0,102);
-    border: none;
-    border-radius: 50px;
-    background: linear-gradient(90deg, #3a0247, #410157);
-    font-weight: 500;
-    font-size: 16px;
-    padding: 10px 36px;
-    border: #ffffff 1px solid;
-}
+    .members-row-one{
+        margin-bottom: 30px;
+    }
+    
+    .members-row-two{
+        padding-bottom: 30px;
+    }
+    
+    .members-row-three{
+        padding-bottom: 30px;
+    }
 
+    .right-member{
+        margin-top: 30px;
+    }
+    
+  }
 
-.connect-btn:hover {
-    background: linear-gradient(#410157, #3a0247);
-    border: #3a0247 1px solid;
-}
+  @media (min-width: 576px) and (max-width: 992px) {
+    
+    .right-member{
+        margin-top: 30px;
+    }
 
-.connect-btn-div {
-    padding-top: 10px;
-}
-
-.person-col {
-    padding-left: 30px;
-    padding-right: 30px;
-}
+    .members-row-one{
+        margin-bottom: 30px;
+    }
+    
+    .members-row-two{
+        padding-bottom: 30px;
+    }
+    
+    .members-row-three{
+        padding-bottom: 30px;
+    }
+    
+  }

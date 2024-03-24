@@ -21,3 +21,20 @@
     text-align: center;
     color: #fff;
 }
+
+@media (max-width: 576px) {
+    .stats-section {
+        padding: 80px 15px 30px 15px;
+    }
+
+    .call-row{
+        padding: 0 10px;
+        font-size: 20px;
+        text-align: justify;
+        color: #fff;
+    }
+
+    #second-card, #third-card {
+        margin-top: 15px;
+    }
+  }
