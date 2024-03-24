@@ -28,7 +28,7 @@ function TeamSection() {
       
       <Row className='members-row-three'>
         <Col lg="5">
-            <TeamCard quote="Just keep on increasing your FullStack.  At one point, you will Reach the Cloud" 
+            <TeamCard quote="Just keep on increasing your FullStack. <br /> At one point, you will Reach the Cloud" 
             image={Jeswin} 
             title="Rishab H" 
             designation="Full-Stack Lead"/>

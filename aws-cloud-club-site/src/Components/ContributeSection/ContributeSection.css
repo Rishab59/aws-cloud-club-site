@@ -34,4 +34,16 @@
 .contribute-btn:hover {
     background: linear-gradient(#410157, #3a0247);
 }
+
+
+/* Media query for smartphones */
+@media (max-width: 576px) {
+    .contribute-section {
+        padding: 80px 10px 30px 10px;
+    }
+
+    .contribute-card{
+        margin: 0 20px;
+    }
+  }
  
