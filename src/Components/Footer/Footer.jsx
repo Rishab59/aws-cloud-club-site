@@ -57,13 +57,13 @@ function Footer() {
                         <Col>
                             
                              <h5 className="side-head" style={{marginTop: "15px"}}>Community</h5>
-                            <NavLink to= "https://explore.skillbuilder.aws/learn" target="_blank" className="useful-links">
+                            <NavLink to= "https://www.meetup.com/aws-cloud-club-at-panimalar-engineering-college/" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
                             Join Group</NavLink><br />
                             
                             <NavLink to= "https://www.awsboy.com/aws-practice-exams/practitioner/" target="_blank" className="useful-links">
                             <GradientBoxIcon />&nbsp;
-                                Certification
+                                Certification Support
                             </NavLink> <br />
                             
                             <NavLink to= "https://www.awsboy.com/aws-practice-exams/practitioner/" target="_blank" className="useful-links">
