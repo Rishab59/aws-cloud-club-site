@@ -98,9 +98,14 @@
       }
 
       .quote-text {
-        font-size: 26px;
+        font-size: 22px;
         text-align: center;
         font-weight: 500;
       }
+
+      .team-card-title{
+        font-size: 32px;
+        font-weight: 600;
+    }
     
   }
