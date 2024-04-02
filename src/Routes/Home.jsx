@@ -1,4 +1,4 @@
-import React from "react" ;
+import React, { useEffect, useState } from "react" ;
 
 import NavBar from "../Components/NavBar/NavBar" ;
 import Hero from "../Components/Hero/Hero";
@@ -8,10 +8,20 @@ import CtaSection from "../Components/CtaSection/CtaSection";
 import StatsSection from "../Components/StatsSection/StatsSection";
 import ContributeSection from "../Components/ContributeSection/ContributeSection";
 import IntroSection from "../Components/IntroSection/IntroSection";
+import Loader from "../Components/Loader/Loader";
 
 
 function Home() {
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      setTimeout(() => {
+        setLoading(false);
+      }, 3300);
+    }, []);
     return (
+        <div>
+      {loading ? <Loader /> : 
         <div className = "home-page">
             <NavBar />
             <Hero />
@@ -21,7 +31,8 @@ function Home() {
             <Benefits />
             <CtaSection />
             <Footer />
-        </div>
+        </div>}
+    </div>
     ) ;
 }
 
