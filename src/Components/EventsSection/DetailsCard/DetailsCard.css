@@ -29,6 +29,8 @@
     padding: 12px 36px;
     width: max-content;
     margin-top: 30px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .view-event-btn:hover {

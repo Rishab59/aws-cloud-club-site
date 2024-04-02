@@ -20,17 +20,17 @@ function EventsSection() {
               <h1 className='event-title'>Inauguration Ceremony</h1>
               <p className='para'>
                 Celebrate with us on the grand occasion of the inauguration of 
-                <b>AWS Cloud Club Panimalar - Chennai</b>, set to take place on Tuesday, 
-                March 26th 2024.  Save the date and mark your calendars to be part of this momentous 
+                <b>AWS Cloud Club Panimalar - Chennai</b>, set to take place on Wednesday, 
+                April 3rd 2024.  Save the date and mark your calendars to be part of this momentous 
                 occasion. We look forward to welcoming you and sharing the excitement as we delve 
                 into the limitless possibilities of the AWS Cloud.</p>
                 
               <DetailsCard 
               speaker="Mr. Sarannithish K S" 
               mode="Hybrid" 
-              date="26th March, 2024" 
+              date="3rd April, 2024" 
               time="8:00 AM [IST]" 
-              participants="120" sponsor="--"></DetailsCard>
+              participants="241" sponsor="--"></DetailsCard>
             </Col>
         </Row>
     </Container>
