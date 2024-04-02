@@ -6,4 +6,6 @@ npm i bootstrap-icons
 
 npm install react-icons
 
+npm install react-confetti
+
 
