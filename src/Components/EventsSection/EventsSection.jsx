@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import Lottie from "lottie-react"
 
 import "./EventsSection.css"
 import SectionHeader from "../SectionHeader/SectionHeader";
@@ -7,11 +8,22 @@ import EventsCard from './EventsCard/EventsCard';
 import DetailsCard from './DetailsCard/DetailsCard';
 
 import inaugurationPoster from '../../assets/img/inauguration.jpg'
+import noEvents from '../../assets/animation/noEvents.json'
 
 function EventsSection() {
   return (
     <Container className='events-section'>
+      
       <SectionHeader header="Upcoming Events" />
+      <Row className='row-gallery'>
+            <Col sm={4}>
+            <Lottie animationData={noEvents}></Lottie>
+            </Col>
+            
+            <h1 className='noEvents-tag'>Hmm... Nothing for now.</h1>
+        </Row>
+
+      <SectionHeader header="Past Events" />
         <Row>
             <Col lg={5}>
             <EventsCard image={inaugurationPoster} title="Inauguration Ceremony"></EventsCard>
