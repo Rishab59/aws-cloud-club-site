@@ -19,7 +19,6 @@ function Hero() {
         }
       };
 
-      const { width, height } = useWindowSize();
   return (
     
     <Container fluid className='hero'>

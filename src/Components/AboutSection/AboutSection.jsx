@@ -8,8 +8,6 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Lottie from 'lottie-react';
-
 
 import team from '../../assets/img/team1.jpg'; 
 

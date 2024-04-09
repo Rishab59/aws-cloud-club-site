@@ -5,8 +5,6 @@ import Lottie from "lottie-react"
 import {Container, Row, Col} from 'react-bootstrap'
 import SectionHeader from '../SectionHeader/SectionHeader'
 
-import whatsapp from "../../assets/animation/whatapp.json"
-
 import "./JoinGuide.css"
 
 function JoinGuide() {
