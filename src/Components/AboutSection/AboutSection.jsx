@@ -8,10 +8,8 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Lottie from 'lottie-react';
 
-
-import madhavakumar from '../../assets/animation/about.json'; 
+import team from '../../assets/img/team1.jpg'; 
 
 function About() {
   return (
@@ -37,7 +35,7 @@ function About() {
             </p>
         </Col>
         <Col lg={6} className="section-content">
-            <Lottie animationData={madhavakumar}></Lottie>
+          <img src={ team } alt="About Us" className='about-img' />
         </Col>
       </Row>
     </Container>

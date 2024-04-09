@@ -10,12 +10,13 @@
     align-items: center;
     z-index: 99;
     width: 100%;
+    min-height: 470px;
 }
 
 
 
 .team-card-title{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
     font-style: normal;
     background: linear-gradient(#F1F3F3, #7C5AED);
@@ -37,8 +38,8 @@
 
 
 .card-image{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     border: 2px solid #fff;
     margin-bottom: 15px;
@@ -52,20 +53,20 @@
 }
 
 .designation {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
 }
 
 .quote {
-    font-size: 200px;
+    font-size: 160px;
     margin-top: -40px;
-    margin-bottom: -120px;
+    margin-bottom: -100px;
   }
   
   .quote-text {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
   }
 
 

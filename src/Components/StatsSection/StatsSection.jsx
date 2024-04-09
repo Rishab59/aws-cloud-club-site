@@ -11,7 +11,7 @@ function StatsSection() {
         <SectionHeader header="Community" />
         <Row className='stats-row'>
             <Col lg={3}>
-            <StatsCard title="123" text="Members"/>
+            <StatsCard title="239" text="Members"/>
             </Col>
             <Col lg={3} id='second-card'>
             <StatsCard title="1" text="Events"/>
