@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react" ;
-
-import NavBar from "../Components/NavBar/NavBar" ;
+import React, { useEffect, useState } from "react";
+import NavBar from "../Components/NavBar/NavBar";
 import Hero from "../Components/Hero/Hero";
 import Benefits from "../Components/Benefits/Benefits";
 import Footer from "../Components/Footer/Footer";
@@ -10,31 +9,34 @@ import ContributeSection from "../Components/ContributeSection/ContributeSection
 import IntroSection from "../Components/IntroSection/IntroSection";
 import Loader from "../Components/Loader/Loader";
 
-
 function Home() {
-    const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 3300);
-    }, []);
-    return (
-        <div>
-      {loading ? <Loader /> : 
-        <div className = "home-page">
-            <NavBar />
-            <Hero />
-            <IntroSection />
-            <StatsSection />
-            <ContributeSection />
-            <Benefits />
-            <CtaSection />
-            <Footer />
-        </div>}
+  useEffect(() => {
+    const loadingTimeout = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+    return () => clearTimeout(loadingTimeout);
+  }, []);
+
+  return (
+    <div>
+      {loading ? (
+        <Loader />
+      ) : (
+        <div className="home-page">
+          <NavBar />
+          <Hero />
+          <IntroSection />
+          <StatsSection />
+          <ContributeSection />
+          <Benefits />
+          <CtaSection />
+          <Footer />
+        </div>
+      )}
     </div>
-    ) ;
+  );
 }
 
-
-export default Home ;
+export default Home;

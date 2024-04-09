@@ -8,6 +8,7 @@ import Events from "./Routes/Events" ;
 import Resources from "./Routes/Resources" ;
 import Gallery from "./Routes/Gallery" ;
 import About from "./Routes/About";
+import Join from "./Routes/Join";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path = "/events" element = { <Events /> } />
         <Route path = "/resources" element = { <Resources /> } />
         <Route path = "/gallery" element = { <Gallery /> } />
+        <Route path = "/join" element = { <Join /> } />
       </Routes>
     </div>
   ) ;
