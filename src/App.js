@@ -43,7 +43,7 @@ function App() {
         <Route path = "/events" element = { <Events /> } />
         <Route path = "/resources" element = { <Resources /> } />
         <Route path = "/gallery" element = { <Gallery /> } />
-        <Route path = "/join" element = { <Join /> } />
+        <Route path = "/join-community" element = { <Join /> } />
       </Routes>
     </div>
   ) ;
