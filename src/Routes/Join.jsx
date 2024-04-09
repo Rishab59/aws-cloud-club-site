@@ -1,4 +1,4 @@
-import React from "react" ;
+import React, { useEffect } from "react" ;
 
 import NavBar from "../Components/NavBar/NavBar" ;
 import Footer from "../Components/Footer/Footer";
@@ -7,6 +7,9 @@ import Faq from "../Components/Faq/Faq";
 
 
 function Join() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div className = "Join-page">
             <NavBar />
