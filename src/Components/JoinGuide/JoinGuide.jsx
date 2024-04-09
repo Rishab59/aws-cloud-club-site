@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from "react-router-dom" ;
-import Lottie from "lottie-react"
 
 import {Container, Row, Col} from 'react-bootstrap'
 import SectionHeader from '../SectionHeader/SectionHeader'

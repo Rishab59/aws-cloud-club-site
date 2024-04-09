@@ -6,9 +6,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-
-import useWindowSize from "react-use/lib/useWindowSize";
-
 import Chennai from '../../assets/img/chennai.png'
 
 function Hero() {
