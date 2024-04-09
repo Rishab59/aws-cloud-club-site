@@ -1,9 +1,6 @@
 import React from 'react';
 import "./HeroStyles.css";
 
-
-import Confetti from "react-confetti";
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -26,7 +23,6 @@ function Hero() {
   return (
     
     <Container fluid className='hero'>
-      <Confetti width={width - 10} height={height} recycle={true} />
       <Row className="hero-row">
         <Col lg={12} className="hero-content">
             <h1>AWS Cloud Club Panimalar - Chennai.</h1>
