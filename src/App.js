@@ -1,6 +1,8 @@
 import "./App.css" ;
 import "bootstrap/dist/css/bootstrap.min.css" ;
 
+import AnimatedCursor from "react-animated-cursor"
+
 import { Route, Routes } from "react-router-dom" ;
 
 import Home from "./Routes/Home" ;
@@ -14,6 +16,20 @@ import Join from "./Routes/Join";
 function App() {
   return (
     <div className = "App">
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        hasBlendMode={true}
+        innerStyle={{
+          backgroundColor: '#fff'
+        }}
+        outerStyle={{
+          border: '3px solid #fff'
+        }}
+      />
       <Routes>
         <Route path = "/" element = { <Home /> } />
         <Route path = "/about" element = { <About /> } />

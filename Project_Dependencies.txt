@@ -10,4 +10,4 @@ npm install react-confetti
 
 npm i react-image-gallery
 
-
+npm i react-animated-cursor
