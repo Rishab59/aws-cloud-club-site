@@ -24,10 +24,12 @@ function App() {
         outerAlpha={0}
         hasBlendMode={true}
         innerStyle={{
-          backgroundColor: '#fff'
+          backgroundColor: '#fff',
+          zIndex:"99999"
         }}
         outerStyle={{
-          border: '3px solid #fff'
+          border: '3px solid #fff',
+          zIndex:"99999"
         }}
       />
       <Routes>
